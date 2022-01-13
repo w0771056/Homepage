@@ -8,27 +8,39 @@
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <head>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container">
-                <a class="navbar-brand" asp-area="" asp-page="https://w0771056.github.io/aspro/Home%20page%20-%20Rory.html">Rory</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-orange" asp-area="" asp-page="https://w0771056.github.io/aspro/Home%20page%20-%20Rory.html">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link color-orange" asp-area="" asp-page="https://w0771056.github.io/aspro/Contact%20Us%20-%20Rory.html">Contact Us</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-    </head>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="dropdown" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+      <ul class="navbar-nav me-auto">
+        <li class="nav-item">
+          <a class="nav-link active" href="https://w0771056.github.io/Homepage/Contact%20Us%20-%20Rory.html">Home
+            <span class="visually-hidden">(current)</span>
+          </a>
+        </li>
+     <!--   <li class="nav-item">
+          <a class="nav-link" href="#">Features</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pricing</a>
+        </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">About</a>
+        </li>-->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="https://w0771056.github.io/Homepage/Index-RoryRomanovich.html">Action</a>
+            <a class="dropdown-item" href="https://w0771056.github.io/Homepage/Contact Us- Rory.html"></a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
