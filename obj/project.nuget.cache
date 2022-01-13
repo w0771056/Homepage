@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "GJ92oiQol9jmLyFRW6VrnZrt0Kbo89wadPAOfsPDi7YeZUNOVTZb7e4BY3wBSOI0J3oDOkGKstqC2SANG0yV1w==",
+  "dgSpecHash": "FtIp/kKIimz14a5l6biv6TBxruT8ZFevcyp3pXV6eYZPrkBeU4Y3EJACx4OVrRckukWEhdDP7dWTwlbLpf0R6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\roryr\\Desktop\\repo\\Rom\\andrewsclass\\Rory.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\roryr\\source\\repos\\w0771056\\Homepage\\Rory.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\roryr\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.13\\microsoft.netcore.app.host.win-x64.5.0.13.nupkg.sha512",
+    "C:\\Users\\roryr\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\roryr\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\roryr\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
